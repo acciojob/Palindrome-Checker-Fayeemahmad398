@@ -2,6 +2,7 @@
 
 function palindrome(str){
 	str=str.toUpperCase();
+	str=str.replace(" ","");
 	
 
 	var i=0;var j=str.length-1;
